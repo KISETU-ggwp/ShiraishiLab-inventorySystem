@@ -46,9 +46,9 @@ Shiraishi-Labの物品は，他の研究室と比べ多いと言われている�
  技術スタック
 
  
-  フレームワーク：React
-  スタイリング：Tailwind CSS
-  ホスティング：AWS S3
+  - フレームワーク：React
+  - スタイリング：Tailwind CSS
+  - ホスティング：AWS S3
 
  主な機能
 
