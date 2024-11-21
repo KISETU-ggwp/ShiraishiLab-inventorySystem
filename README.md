@@ -55,15 +55,14 @@ Shiraishi-Labの物品は，他の研究室と比べ非常に多いと言われ�
 
 | メソッド | エンドポイント | 説明 |
 |--------|--------------|------|
- メソッド	エンドポイント	説明
- GET	/items	全ての備品リストを取得
- GET	/items/{id}	特定の備品の詳細情報を取得
- POST	/items	新しい備品を追加
- PUT	/items/{id}	備品情報を更新（例: 場所や名称）
- DELETE	/items/{id}	備品を削除
- POST	/items/{id}/borrow	備品を貸出（借りる人の情報を登録）
- POST	/items/{id}/return	備品を返却（借り手情報を削除または更新）
- GET	/items/{id}/borrowed	貸出中の備品情報を取得
+ GET|	/items	|全ての備品リストを取得
+ GET|	/items/{id}	|特定の備品の詳細情報を取得
+ POST|	/items	|新しい備品を追加
+ PUT|	/items/{id}	|備品情報を更新（例: 場所や名称）
+ DELETE|	/items/{id}	|備品を削除
+ POST|	/items/{id}/borrow	|備品を貸出（借りる人の情報を登録）
+ POST|	/items/{id}/return	|備品を返却（借り手情報を削除または更新）
+ GET|	/items/{id}/borrowed	|貸出中の備品情報を取得
 
 - データベース
  技術スタック
