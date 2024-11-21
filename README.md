@@ -1,0 +1,1 @@
+# ShiraishiLab-inventorySystem
